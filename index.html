@@ -3,9 +3,6 @@
 <head>
   
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-<script>
-  window.alert("My first Javascript");
-</script>
 <style>
   .container {
     background-color:lightgray;
@@ -20,13 +17,19 @@
 <body>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-xs-3 col-sm-3 col-md-6">
       <p> Wingardium Leviosa</p>
     </div>
-    <div class="col-sm-3">
-      <p> It's leviOOSSAH</p>
+    <div class="col-xs-3 col-sm-3 col-md-6">
+      <form action="/" method="POST">
+        <div class="form-group">
+          <lable>Username:</lable>
+          input type="text" class="form-control">
+          
+        </div>
+      </form>
     </div>
-    <div class="col-sm-3">
+    <div class="col-xs-3 col-sm-3 col-md-6">
       <p>POTTER!</p>
     </div>
   </div>
