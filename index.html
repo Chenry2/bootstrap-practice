@@ -3,9 +3,10 @@
 <head>
   
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
 <style>
   .container {
-    background-color:lightgray;
     margin-top:30px;
     padding-bottom:30px;
    }
@@ -15,8 +16,95 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">LeetCode OJ</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"><font color="orange">LeetCode Premium Subscription</font></a></li>
+      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Problems<span class="caret"></span></a>
+      
+      </li>
+      <li><a href="#">Pick One</a></li> 
+      <li><a href="#">Mock</a></li> 
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Discuss</a></li>
+      <li><a href="#"><font color="orange">Book</font></a></li>
+    </ul>
+    <div class="navbar-form navbar-right">
+              <a class="btn btn-primary" href="#">Sign up</a>
+              <a class="btn btn-default" href="#">Sign in</a>
+            </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="jumbotron">
+    <p><b>LeetCode Online Judge</b></p>
+    <p>We are supporting <font color="red">Javascript</font> and <font color="red">Ruby</font> now!</p>
+    <p>LeetCode OJ is a platform for preparing technical coding interviews. Pick from an expanding library of more than 190 questions, code and submit your solution to see if you have solved it correctly. It is <i>that</i> easy!</p>
+    <p>Our platform currently supports a total of 9 languages: C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL.</p>
+  
+    <div class="paragraph">
+      <p><a href="#">Follow</a> or <a href="#"> Like LeetCode</a> and get the <font color="red">latest update</font> when a new question is added!
+      </p>
+      <ul>
+        <li><a href="#"><img src=""> Facebook</a></li>
+        <li><a href="#"><img src=""> Twitter</a></li>
+        <li><a href="#"><img src="">Weibo</a></li>
+      </ul>
+    </div>
+    <div class="tagline">
+      <p>
+        <a href="#">Code.</a>
+        <a href="#">Read.</a>
+        <a href="#">Discuss.</a>
+      </p>
+    </div>
+    
+
+      <div class="row">
+        <form class="form" method="POST" action="/">
+          <input type='hidden' name='csrfmiddlewaretoken' value='fYzwgFcmiE2rDTlrPclU74Q1N8mO2cUg' />
+
+          
+            
+              <div class="form-group">
+                <div class="col-md-3 no-left-padding"><input autofocus="autofocus" id="id_username" maxlength="30" name="username" placeholder="Username" type="text" /></div>
+              </div>
+            
+          
+            
+              <div class="form-group">
+                <div class="col-md-3 no-left-padding"><input id="id_email" name="email" placeholder="E-mail address" type="email" /></div>
+              </div>
+            
+          
+            
+              <div class="form-group">
+                <div class="col-md-3 no-left-padding"><input id="id_password1" name="password1" placeholder="Password" type="password" /></div>
+              </div>
+            
+          
+            
+          
+
+          <div class="col-md-3">
+            <div class="row">
+              <button class="btn btn-primary btn-lg" type="submit">Sign up for LeetCode OJ</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+  </div>
+  
+</div>
    
+
 </body>
 
 </html>
-
